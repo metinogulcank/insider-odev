@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini E-Ticaret</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+</head>
+<body>
+  <input type="text" id="search" placeholder="Ürün ara...">
+  <div id="productList"></div>
+  <div id="cart">
+    <h3>Sepetim</h3>
+    <button id="clearCart">Sepeti Temizle</button>
+    <div id="cartItems"></div>
+
+    <script type="text/template" id="product-template">
+        <div class="product-card">
+          <img class="product-image" src="" alt="">
+          <h3 class="product-title"></h3>
+          <p class="product-price"></p>
+          <button class="addToCart">Sepete Ekle</button>
+          <button class="showDetail">Detay</button>
+        </div>
+      </script>
+  </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>->
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
